@@ -1,6 +1,5 @@
 import './styles.css';
 import React from 'react';
-import Header from './Header';
 import Home from './Home';
 import About from './About';
 import Portfolio from './Portfolio';
@@ -9,9 +8,9 @@ import Sidebar from './Sidebar';
 
 const App = () => {
   return (
-    <div>
+    <div className="page-body">
       <Sidebar />
-      <div className="content container">
+      <div className="content">
         <Home />
         <About />
         <Contact />

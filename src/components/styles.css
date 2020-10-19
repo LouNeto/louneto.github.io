@@ -1,8 +1,15 @@
+/* ---------------------- page style ---------------------- */
+
+.page-body {
+  background: #212529;
+}
+
 /* ---------------------- page layout ---------------------- */
 
 .content {
   padding-left: 300px;
   text-align: center;
+  /* margin: 80px; */
 }
 
 .container {
@@ -16,7 +23,7 @@
 }
 
 .home {
-  padding-top: 200px;
+  padding-top: 250px;
   height: 100vh;
   min-height: 100vh;
 }
@@ -31,7 +38,7 @@
 
 .sidenav {
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: #111418;
 }
 
 .sidenav-trigger i {
@@ -48,8 +55,9 @@
 
 .profile-picture {
   margin-top: 50px;
+  margin-bottom: 10px;
   border-radius: 50%;
-  border: 8px solid rgb(226, 226, 226);
+  border: 8px solid #343a40;
   width: 160px;
   height: 160px;
 }
@@ -57,11 +65,13 @@
 /* Website menu navigation items */
 
 .menu-nav-item {
-  color: white;
+  color: rgba(250, 250, 250, 0.9) !important;
+  margin-bottom: 5px;
 }
 
 .menu-nav-item:hover {
-  color: #1cb385;
+  color: #1cb385 !important;
+  background-color: transparent !important;
 }
 
 /* font awesome social media buttons */
@@ -97,16 +107,20 @@
 
 /* ---------------------- home ---------------------- */
 
+.home {
+  color: rgba(250, 250, 250, 0.9);
+}
+
 .name-color {
   color: #1cb385;
 }
 
 .line-1 {
   position: relative;
-  width: 11.5em;
+  width: 13.5em;
   margin: 0 auto;
-  border-right: 2px solid rgba(0, 0, 0, 0.75);
-  font-size: 200%;
+  border-right: 2px solid rgba(250, 250, 250, 0.9);
+  font-size: 300%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -127,7 +141,7 @@
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color: rgba(0, 0, 0, 0.75);
+    border-right-color: rgba(250, 250, 250, 0.9);
   }
   to {
     border-right-color: transparent;
@@ -139,22 +153,58 @@
   border-radius: 8px;
   background-color: transparent;
   color: #1cb385;
+  font-weight: 600;
   transition-duration: 0.4s;
+  height: 40px;
+  width: 180px;
 }
 .download-cv-button:hover {
   background: #1cb385;
   color: white;
 }
+.download-cv-button:hover i {
+  color: white;
+}
+
+/* ---------------------- About ---------------------- */
+
+.about {
+  background-color: #343a40;
+  color: rgba(250, 250, 250, 0.9);
+}
+
+.about-presentation {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.skills i {
+  font-size: 4em;
+  margin: 10px;
+}
 
 /* ---------------------- contact ---------------------- */
 
+.contact {
+  background-color: #212529;
+  height: 100vh;
+  color: rgba(250, 250, 250, 0.9);
+}
+
 .contact-info h5 {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .contact-info {
   text-align: justify;
+}
+
+.coordonate {
+  text-align: center;
+  margin: auto;
+  width: 30%;
 }
 
 .material-icons {
@@ -166,6 +216,10 @@
   width: 80%;
   margin: auto;
   background-color: transparent;
+}
+
+.row {
+  margin-bottom: 0px;
 }
 
 /* ---------------------- other ---------------------- */

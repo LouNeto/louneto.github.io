@@ -20,9 +20,12 @@ class Sidebar extends Component {
               title="I'm Lou"
               alt="photo_lou"
             />
-            <h6 style={{ fontWeight: 'bold', marginTop: '15' }}>
+            <h5
+              className="white-text"
+              style={{ fontWeight: 'bold', marginTop: '15' }}
+            >
               Lou-Gomes Neto
-            </h6>
+            </h5>
           </div>
           <li>
             <a href="#" className="menu-nav-item">
