@@ -1,15 +1,12 @@
-/* ---------------------- page style ---------------------- */
+/* ---------------------- page style and layout ---------------------- */
 
 .page-body {
   background: #212529;
 }
 
-/* ---------------------- page layout ---------------------- */
-
 .content {
   padding-left: 300px;
   text-align: center;
-  /* margin: 80px; */
 }
 
 .container {
@@ -22,18 +19,6 @@
   }
 }
 
-.home {
-  padding-top: 250px;
-  height: 100vh;
-  min-height: 100vh;
-}
-
-.about {
-  /* padding-bottom: 200px; */
-  height: 100vh;
-  min-height: 100vh;
-}
-
 /* ---------------------- sidebar ---------------------- */
 
 .sidenav {
@@ -41,10 +26,14 @@
   background-color: #111418;
 }
 
+.sidenav-trigger {
+  background-color: transparent;
+}
+
 .sidenav-trigger i {
   color: #1cb385;
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 /* profile picture */
@@ -104,11 +93,22 @@
   background: #ff5700;
   color: white;
 }
+.fa-file-pdf-o:hover {
+  background: rgba(255, 0, 0, 0.726);
+  color: white;
+}
 
 /* ---------------------- home ---------------------- */
 
 .home {
   color: rgba(250, 250, 250, 0.9);
+  padding-top: 250px;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.home h1 {
+  margin-bottom: 40px;
 }
 
 .name-color {
@@ -118,9 +118,11 @@
 .line-1 {
   position: relative;
   width: 13.5em;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 20px;
   border-right: 2px solid rgba(250, 250, 250, 0.9);
   font-size: 300%;
+  font-weight: 350;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -129,7 +131,7 @@
 /* Animation */
 .anim-typewriter {
   animation: typewriter 4s steps(25) 1s 1 normal both,
-    blinkTextCursor 500ms steps(25) infinite normal;
+    blinkTextCursor 1000ms steps(25) infinite normal;
 }
 @keyframes typewriter {
   from {
@@ -146,6 +148,11 @@
   to {
     border-right-color: transparent;
   }
+}
+
+.home h3 {
+  margin-top: 0;
+  font-size: x-large;
 }
 
 .download-cv-button {
@@ -166,17 +173,58 @@
   color: white;
 }
 
+.fa-angle-down {
+  background-color: transparent;
+}
+
+.down-arrow {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  margin-left: -19px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+.bounce {
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation: point 2s ease infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes point {
+  0% {
+    transform: translateY(0);
+  }
+  33% {
+    transform: translateY(-15px);
+  }
+  44% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 /* ---------------------- About ---------------------- */
 
 .about {
-  background-color: #343a40;
+  background-color: #212529;
   color: rgba(250, 250, 250, 0.9);
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.about-content h6 {
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 .about-presentation {
-  text-align: justify;
-  margin-left: 5%;
-  margin-right: 5%;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .skills i {
@@ -187,7 +235,7 @@
 /* ---------------------- contact ---------------------- */
 
 .contact {
-  background-color: #212529;
+  background-color: #343a40;
   height: 100vh;
   color: rgba(250, 250, 250, 0.9);
 }
@@ -229,9 +277,14 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  width: 10%;
+  width: 5%;
 }
 
 .section-title {
   margin: 2.8rem 0 1rem 0;
+}
+
+::selection {
+  color: white;
+  background: #089f6e;
 }

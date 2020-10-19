@@ -68,6 +68,7 @@ class Sidebar extends Component {
               target="_blank"
               className="fa fa-gitlab"
             ></a>
+            <a href="#" className="fa fa-file-pdf-o"></a>
           </div>
         </ul>
         <a href="#" data-target="slide-out" className="sidenav-trigger">
