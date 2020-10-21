@@ -39,6 +39,11 @@ class Sidebar extends Component {
           </li>
           <li>
             <a href="#" className="menu-nav-item">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#" className="menu-nav-item">
               Portfolio
             </a>
           </li>

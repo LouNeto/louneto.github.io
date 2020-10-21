@@ -138,7 +138,7 @@
     width: 0;
   }
   to {
-    width: 11.5em;
+    width: 11em;
   }
 }
 @keyframes blinkTextCursor {
@@ -211,8 +211,8 @@
 .about {
   background-color: #212529;
   color: rgba(250, 250, 250, 0.9);
-  height: 100vh;
-  min-height: 100vh;
+  height: 80vh;
+  min-height: 80vh;
 }
 
 .about-content h6 {
@@ -223,8 +223,30 @@
 
 .about-presentation {
   text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 20px;
+}
+
+.about-presentation p {
+  font-size: large;
+  text-align: justify;
+}
+
+.interest-img {
+  color: #1cb385;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 10px;
+}
+
+/* ---------------------- Skills ---------------------- */
+
+.skills {
+  background-color: #343a40;
+  color: rgba(250, 250, 250, 0.9);
+  height: 80vh;
+  min-height: 100vh;
 }
 
 .skills i {
@@ -232,17 +254,52 @@
   margin: 10px;
 }
 
+/* ---------------------- Portfolio ---------------------- */
+
+.portfolio {
+  color: rgba(250, 250, 250, 0.9);
+  background-color: #212529;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.projects-showcase {
+  align-content: center;
+}
+
+.project {
+  background-color: #343a40;
+}
+
+.card {
+  height: 400px;
+  width: 400px;
+}
+
+.card-content {
+  background-color: #343a40;
+}
+
+.card-reveal {
+  background-color: #343a40;
+}
+
+.btn-floating {
+  background-color: #1cb385;
+}
+
 /* ---------------------- contact ---------------------- */
 
 .contact {
   background-color: #343a40;
-  height: 100vh;
+  height: 75vh;
+  min-height: 75vh;
   color: rgba(250, 250, 250, 0.9);
 }
 
 .contact-info h5 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .contact-info {
@@ -252,7 +309,8 @@
 .coordonate {
   text-align: center;
   margin: auto;
-  width: 30%;
+  margin-bottom: 15px;
+  width: 40%;
 }
 
 .material-icons {
@@ -270,18 +328,60 @@
   margin-bottom: 0px;
 }
 
+/* .input-field label {
+  color: #1cb385;
+} */
+/* label focus color */
+/* .input-field input[type='text']:focus + label {
+  color: #1cb385;
+} */
+/* label underline focus color */
+/* .input-field input[type='text']:focus {
+  border-bottom: 1px solid #1cb385;
+  box-shadow: 0 1px 0 0 #1cb385;
+} */
+
+.submit-button {
+  border: 2px solid #1cb385;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #1cb385;
+  font-weight: 600;
+  transition-duration: 0.4s;
+  height: 40px;
+  width: 100px;
+}
+.submit-button:hover {
+  background: #1cb385;
+  color: white;
+}
+
+/* ---------------------- footer ---------------------- */
+
+.page-footer {
+  background-color: #212529;
+  text-align: center;
+}
+.footer-copyright {
+  background-color: #212529 !important;
+}
+.copyright {
+  background-color: #212529;
+  padding-bottom: 20px;
+}
+
 /* ---------------------- other ---------------------- */
+
+.section-title {
+  margin: 2.8rem 0 1rem 0;
+}
 
 .title-divider {
   border: 2px solid #1cb385;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  width: 5%;
-}
-
-.section-title {
-  margin: 2.8rem 0 1rem 0;
+  width: 4%;
 }
 
 ::selection {

@@ -1,10 +1,12 @@
 import './styles.css';
 import React from 'react';
+import Sidebar from './Sidebar';
 import Home from './Home';
 import About from './About';
+import Skills from './Skills';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
-import Sidebar from './Sidebar';
+import Footer from './Footer';
 
 const App = () => {
   return (
@@ -19,7 +21,10 @@ const App = () => {
       <div className="content">
         <Home />
         <About />
+        <Skills />
+        <Portfolio />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

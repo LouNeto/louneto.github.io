@@ -7,7 +7,7 @@ const About = () => {
         <h4 className="section-title">About Me</h4>
         <div className="divider title-divider"></div>
         <div className="about-content container">
-          <div className="about-presentation">
+          <div className="about-presentation col s6">
             <h6>Hey, I'm Lou and welcome to my personal website!</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -24,22 +24,36 @@ const About = () => {
             </p>
           </div>
           <div className="row">
-            <div className="col s12 skills">
-              <i className="devicon-java-plain-wordmark colored"></i>
-              <i className="devicon-c-plain colored"></i>
-              <i className="devicon-cplusplus-plain colored"></i>
-              <i className="devicon-python-plain colored"></i>
-              <i className="devicon-javascript-plain colored"></i>
-              <i className="devicon-html5-plain colored"></i>
-              <i className="devicon-css3-plain-wordmark colored"></i>
-              <i className="devicon-react-original-wordmark colored"></i>
-              <i class="devicon-nodejs-plain colored"></i>
-              <i class="devicon-express-original colored"></i>
-              <i className="devicon-mongodb-plain-wordmark colored"></i>
-            </div>
-            <div className="col s12 m12 l12 interests">
-              <h4 className="section-title">Interests</h4>
-              Music, Guitar, Piano, Technology, Video Games, Basketball
+            <div className="col s6">
+              <h5 className="section-title">In my free time</h5>
+              <div className="interests1 col s6">
+                <div className="valign-wrapper center-align">
+                  <img className="interest-img" src="music.png"></img>
+                  <span>Music</span>
+                </div>
+                <div className="valign-wrapper">
+                  <img className="interest-img" src="guitar.png"></img>
+                  <span>Guitar</span>
+                </div>
+                <div className="valign-wrapper">
+                  <img className="interest-img" src="piano.png"></img>
+                  <span>Piano</span>
+                </div>
+              </div>
+              <div className="interests2 col s6">
+                <div className="valign-wrapper">
+                  <img className="interest-img" src="technology.png"></img>
+                  <span>Technology</span>
+                </div>
+                <div className="valign-wrapper">
+                  <img className="interest-img" src="console.png"></img>
+                  <span>Video-Games</span>
+                </div>
+                <div className="valign-wrapper">
+                  <img className="interest-img" src="basketball.png"></img>
+                  <span>Basketball</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
