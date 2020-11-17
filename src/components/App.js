@@ -14,15 +14,15 @@ const App = () => {
       className="page-body"
       style={{
         /* Background pattern from Toptal Subtle Patterns */
-        backgroundImage: 'url(motif_home.png)',
+        backgroundImage: 'url(images/motif_home.png)',
       }}
     >
       <Sidebar />
       <div className="content">
         <Home />
-        <About />
+        {/* <About />
         <Skills />
-        <Portfolio />
+        <Portfolio /> */}
         <Contact />
         <Footer />
       </div>

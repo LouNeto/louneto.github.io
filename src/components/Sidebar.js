@@ -16,23 +16,25 @@ class Sidebar extends Component {
           <div className="profile">
             <img
               className="profile-picture"
-              src="profile.jpg"
+              src="images/profile.jpg"
               title="I'm Lou"
               alt="photo_lou"
             />
-            <h5
-              className="white-text"
-              style={{ fontWeight: 'bold', marginTop: '15' }}
-            >
-              Lou-Gomes Neto
-            </h5>
+            <a href="/">
+              <h5
+                className="white-text"
+                style={{ fontWeight: 'bold', marginTop: '15' }}
+              >
+                Lou-Gomes Neto
+              </h5>
+            </a>
           </div>
           <li>
             <a href="#" className="menu-nav-item">
               Home
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#" className="menu-nav-item">
               About
             </a>
@@ -46,7 +48,7 @@ class Sidebar extends Component {
             <a href="#" className="menu-nav-item">
               Portfolio
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#" className="menu-nav-item">
               Contact
@@ -73,7 +75,11 @@ class Sidebar extends Component {
               target="_blank"
               className="fa fa-gitlab"
             ></a>
-            <a href="#" className="fa fa-file-pdf-o"></a>
+            <a
+              href="cvLouNetoEng.pdf"
+              className="fa fa-file-pdf-o"
+              download
+            ></a>
           </div>
         </ul>
         <a href="#" data-target="slide-out" className="sidenav-trigger">

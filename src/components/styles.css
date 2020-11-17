@@ -4,13 +4,13 @@
   background: #212529;
 }
 
+.container {
+  width: 90%;
+}
+
 .content {
   padding-left: 300px;
   text-align: center;
-}
-
-.container {
-  width: 90%;
 }
 
 @media only screen and (max-width: 992px) {
@@ -35,8 +35,6 @@
   padding-left: 10px;
   padding-top: 10px;
 }
-
-/* profile picture */
 
 .profile {
   margin-bottom: 25px;
@@ -86,7 +84,7 @@
   color: white;
 }
 .fa-github:hover {
-  background: #080808;
+  background: #252525;
   color: white;
 }
 .fa-gitlab:hover {
@@ -102,16 +100,23 @@
 
 .home {
   color: rgba(250, 250, 250, 0.9);
-  padding-top: 250px;
+  /* padding-top: 15%; */
   height: 100vh;
   min-height: 100vh;
 }
 
 .home h1 {
+  /* margin-top: 30%; */
   margin-bottom: 40px;
 }
 
-.name-color {
+.home-content {
+  padding-bottom: 10%;
+  margin: auto;
+  font-size: smaller;
+}
+
+.name {
   color: #1cb385;
 }
 
@@ -206,6 +211,7 @@
     transform: translateY(0);
   }
 }
+
 /* ---------------------- About ---------------------- */
 
 .about {
@@ -292,54 +298,95 @@
 
 .contact {
   background-color: #343a40;
-  height: 75vh;
-  min-height: 75vh;
+  height: auto;
+  min-height: 80vh;
   color: rgba(250, 250, 250, 0.9);
+}
+
+@media only screen and (max-width: 992px) {
+  .contact {
+    height: auto;
+    min-height: 100vh;
+  }
+  .contact-info h5 {
+    margin-bottom: 10px;
+  }
 }
 
 .contact-info h5 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 .contact-info {
-  text-align: justify;
+  margin-left: auto;
+}
+
+.coordonates {
+  margin-bottom: 30px;
 }
 
 .coordonate {
-  text-align: center;
-  margin: auto;
-  margin-bottom: 15px;
-  width: 40%;
+  color: rgba(250, 250, 250, 0.9);
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-handles {
+  margin-top: 30px;
+  margin-bottom: 5%;
 }
 
 .material-icons {
   color: #1cb385;
-  margin-right: 5px;
+  margin-right: 0.5%;
 }
 
-.card-panel {
+.email-address:hover {
+  color: #1cb385;
+}
+
+/* .card-panel {
   width: 80%;
   margin: auto;
   background-color: transparent;
-}
+} */
 
 .row {
   margin-bottom: 0px;
 }
 
-/* .input-field label {
-  color: #1cb385;
-} */
 /* label focus color */
-/* .input-field input[type='text']:focus + label {
-  color: #1cb385;
-} */
+.input-field input[type='text']:focus + label {
+  color: #1cb385 !important;
+}
 /* label underline focus color */
-/* .input-field input[type='text']:focus {
-  border-bottom: 1px solid #1cb385;
-  box-shadow: 0 1px 0 0 #1cb385;
+.input-field input[type='text']:focus {
+  border-bottom: 1px solid #1cb385 !important;
+  box-shadow: 0 1px 0 0 #1cb385 !important;
+}
+/* valid color */
+.input-field input[type='text'].valid {
+  border-bottom: 1px solid #9e9e9c;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color
+.input-field input[type='text'].invalid {
+  border-bottom: 1px solid rgb(207, 50, 50);
+  box-shadow: 0 1px 0 0 #000;
 } */
+
+.input-field textarea[type='text']:focus {
+  border-bottom: 1px solid #1cb385 !important;
+  box-shadow: 0 1px 0 0 #1cb385 !important;
+}
+.input-field textarea[type='text']:focus + label {
+  color: #1cb385 !important;
+}
 
 .submit-button {
   border: 2px solid #1cb385;
@@ -367,7 +414,7 @@
 }
 .copyright {
   background-color: #212529;
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 }
 
 /* ---------------------- other ---------------------- */
