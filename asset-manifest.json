@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/personal_website/static/css/main.67979afd.chunk.css",
-    "main.js": "/personal_website/static/js/main.1b139378.chunk.js",
-    "main.js.map": "/personal_website/static/js/main.1b139378.chunk.js.map",
-    "runtime-main.js": "/personal_website/static/js/runtime-main.728c6761.js",
-    "runtime-main.js.map": "/personal_website/static/js/runtime-main.728c6761.js.map",
-    "static/js/2.783dc0fd.chunk.js": "/personal_website/static/js/2.783dc0fd.chunk.js",
-    "static/js/2.783dc0fd.chunk.js.map": "/personal_website/static/js/2.783dc0fd.chunk.js.map",
-    "index.html": "/personal_website/index.html",
-    "precache-manifest.afc2858e1c367c859ac5be99d00420cb.js": "/personal_website/precache-manifest.afc2858e1c367c859ac5be99d00420cb.js",
-    "service-worker.js": "/personal_website/service-worker.js",
-    "static/css/main.67979afd.chunk.css.map": "/personal_website/static/css/main.67979afd.chunk.css.map",
-    "static/js/2.783dc0fd.chunk.js.LICENSE.txt": "/personal_website/static/js/2.783dc0fd.chunk.js.LICENSE.txt"
+    "main.css": "/louneto_website/static/css/main.67979afd.chunk.css",
+    "main.js": "/louneto_website/static/js/main.1b139378.chunk.js",
+    "main.js.map": "/louneto_website/static/js/main.1b139378.chunk.js.map",
+    "runtime-main.js": "/louneto_website/static/js/runtime-main.95e14ede.js",
+    "runtime-main.js.map": "/louneto_website/static/js/runtime-main.95e14ede.js.map",
+    "static/js/2.783dc0fd.chunk.js": "/louneto_website/static/js/2.783dc0fd.chunk.js",
+    "static/js/2.783dc0fd.chunk.js.map": "/louneto_website/static/js/2.783dc0fd.chunk.js.map",
+    "index.html": "/louneto_website/index.html",
+    "precache-manifest.f50ce11159b0db86e2e6e96aa5daf72b.js": "/louneto_website/precache-manifest.f50ce11159b0db86e2e6e96aa5daf72b.js",
+    "service-worker.js": "/louneto_website/service-worker.js",
+    "static/css/main.67979afd.chunk.css.map": "/louneto_website/static/css/main.67979afd.chunk.css.map",
+    "static/js/2.783dc0fd.chunk.js.LICENSE.txt": "/louneto_website/static/js/2.783dc0fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.728c6761.js",
+    "static/js/runtime-main.95e14ede.js",
     "static/js/2.783dc0fd.chunk.js",
     "static/css/main.67979afd.chunk.css",
     "static/js/main.1b139378.chunk.js"
