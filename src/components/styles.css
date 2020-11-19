@@ -307,7 +307,7 @@
 @media only screen and (max-width: 992px) {
   .contact {
     height: auto;
-    min-height: 100vh;
+    min-height: 90vh;
   }
   .contact-info h5 {
     margin-bottom: 10px;
@@ -426,6 +426,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .page-footer {
+    height: 10vh;
+  }
   .footer-copyright {
     width: 80%;
   }
