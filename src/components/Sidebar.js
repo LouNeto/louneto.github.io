@@ -47,7 +47,7 @@ class Sidebar extends Component {
               hashSpy={true}
               smooth={true}
               duration={1000}
-              className="menu-nav-item"
+              className="menu-nav-item sidenav-close"
             >
               Home
             </Link>
@@ -60,7 +60,7 @@ class Sidebar extends Component {
               hashSpy={true}
               smooth={true}
               duration={1000}
-              className="menu-nav-item"
+              className="menu-nav-item sidenav-close"
             >
               Contact
             </Link>
