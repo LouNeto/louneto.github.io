@@ -59,6 +59,7 @@
 .menu-nav-item:hover {
   color: #1cb385 !important;
   background-color: transparent !important;
+  cursor: pointer;
 }
 
 /* font awesome social media buttons */
