@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="about row">
+    <div className="about content row">
       <div className="col s12">
         <h4 className="section-title">About Me</h4>
         <div className="divider title-divider"></div>
@@ -28,29 +28,53 @@ const About = () => {
               <h5 className="section-title">In my free time</h5>
               <div className="interests1 col s6">
                 <div className="valign-wrapper center-align">
-                  <img className="interest-img" src="music.png"></img>
+                  <img
+                    className="interest-img"
+                    src="music.png"
+                    alt="music"
+                  ></img>
                   <span>Music</span>
                 </div>
                 <div className="valign-wrapper">
-                  <img className="interest-img" src="guitar.png"></img>
+                  <img
+                    className="interest-img"
+                    src="guitar.png"
+                    alt="guitar"
+                  ></img>
                   <span>Guitar</span>
                 </div>
                 <div className="valign-wrapper">
-                  <img className="interest-img" src="piano.png"></img>
+                  <img
+                    className="interest-img"
+                    src="piano.png"
+                    alt="piano"
+                  ></img>
                   <span>Piano</span>
                 </div>
               </div>
               <div className="interests2 col s6">
                 <div className="valign-wrapper">
-                  <img className="interest-img" src="technology.png"></img>
+                  <img
+                    className="interest-img"
+                    src="technology.png"
+                    alt="technology"
+                  ></img>
                   <span>Technology</span>
                 </div>
                 <div className="valign-wrapper">
-                  <img className="interest-img" src="console.png"></img>
+                  <img
+                    className="interest-img"
+                    src="console.png"
+                    alt="console"
+                  ></img>
                   <span>Video-Games</span>
                 </div>
                 <div className="valign-wrapper">
-                  <img className="interest-img" src="basketball.png"></img>
+                  <img
+                    className="interest-img"
+                    src="basketball.png"
+                    alt="basketball"
+                  ></img>
                   <span>Basketball</span>
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import './styles.css';
 import React from 'react';
+import { HashRouter, Route } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import Home from './Home';
 import About from './About';
@@ -17,15 +18,12 @@ const App = () => {
         backgroundImage: 'url(images/motif_home.png)',
       }}
     >
-      <Sidebar />
-      <div className="content">
+      <HashRouter basename="/">
+        <Sidebar />
         <Home />
-        {/* <About />
-        <Skills />
-        <Portfolio /> */}
         <Contact />
         <Footer />
-      </div>
+      </HashRouter>
     </div>
   );
 };

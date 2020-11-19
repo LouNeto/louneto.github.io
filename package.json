@@ -1,5 +1,5 @@
 {
-  "homepage": "http://LouNeto.github.io/louneto_website",
+  "homepage": ".",
   "name": "louneto_website",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,9 @@
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-scroll": "^1.8.1"
   },
   "scripts": {
     "predeploy": "npm run build",

@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div className="home valign-wrapper center-align">
+    <div id="/home" className="home content valign-wrapper center-align">
       <div className="home-content">
         <h1>
           Hi! I'm <span className="name">Lou</span>.
@@ -18,9 +19,17 @@ const Home = () => {
             <i className="material-icons right">file_download</i>Download CV
           </a>
         </div>
-        <a href="#" className="down-arrow bounce">
+        <Link
+          activeClass="active"
+          to="/contact"
+          spy={true}
+          hashSpy={true}
+          smooth={true}
+          duration={1000}
+          className="down-arrow bounce"
+        >
           <i className="fa fa-angle-down"></i>
-        </a>
+        </Link>
       </div>
     </div>
   );
